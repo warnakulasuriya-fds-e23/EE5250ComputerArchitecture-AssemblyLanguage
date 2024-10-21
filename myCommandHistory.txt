@@ -1,0 +1,134 @@
+718  mkdir asm23
+  719  cd asm23
+  720  gedit
+  721  nano
+  722  nano prog01.asm
+  723  ls
+  724  nasm -f elf -g -F stabs -o obj.0 -l lst.1 prog.asm
+  725  nasm -f elf -g -F stabs -o obj.0 -l lst.1 prog01.asm
+  726  ls
+  727  ./obj.0
+  728  lst.1
+  729  ./lst.1
+  730  firefox
+  731  chrome
+  732  files
+  733  file
+  734  ls
+  735  cls
+  736  clear
+  737  ls
+  738  ld -o exe.x obj.0
+  739  ld -m elf_i386 -o exe.x obj.0
+  740  ls
+  741  ./exe.x
+  742  echo $?
+  743  echo 0?
+  744  echo $?
+  745  ./exe.x
+  746  echo $?
+  747  ls
+  748  nano prog01.asm
+  749  nasm -f elf -g -F stabs -o obj.0 -l lst.1 prog01.asm
+  750  ls
+  751  ld -m elf_i386 -o exe.x obj.0
+  752  ./exe.x
+  753  nano prog01.asm
+  754  nasm -f elf -g -F stabs -o obj.0 -l lst.1 prog01.asm
+  755  ld -m elf_i386 -o exe.x obj.0
+  756  ./exe.x
+  757  echo $?
+  758  nano MakeFile
+  759  ls
+  760  rm -r lst.1
+  761  rm -r obj.0
+  762  ls
+  763  rm -r exe.x
+  764  make
+  765  ls
+  766  nano Makefile
+  767  firefox
+  768  ls
+  769  mv MakeFile Makefile
+  770  make
+  771  nano Makefile
+  772  make
+  773  ./exe
+  774  ./exe.x
+  775  git --version
+  776  sudo apt git
+  777  apt git
+  778  nano prog01.asm
+  779  make
+  780  ./exe
+  781  ./exe.x
+  782  echo $?
+  783  nano prog01.asm
+  784  make
+  785  ./exe.x
+  786  echo $?
+  787  nano lst.l\
+  788  nano prog01.asm
+  789  make
+  790  ./exe.x echo $?
+  791  lst
+  792  ls.l
+  793  ls
+  794  nano lst.l\
+  795  nano prog01.asm
+  796  make
+  797  ./exe.x
+  798  echo $?
+  799  mkdir progam2
+  800  cd program2
+  801  mv progam2 program2
+  802  ls
+  803  cd program2
+  804  ls
+  805  nano helloWorld.asm
+  806  cd ..
+  807  nano Makefile
+  808  cd program2/
+  809  nano Makefile
+  810  ls
+  811  cd ..
+  812  nano Makefile
+  813  cd Pr
+  814  cd program2/
+  815  nano Makefile
+  816  make
+  817  nano Makefile
+  818  make
+  819  nano helloWorld.asm
+  820  nano MakeFile
+  821  nano Makefile
+  822  make
+  823  nano Makefile
+  824  make
+  825  ls
+  826  ./exe.x
+  827  cd ..
+  828  mkdir program1
+  829  ls
+  830  rm -r lst.l
+  831  rm -r obj.o
+  832  mv Makefile program1/Makefile
+  833  mv prog01.asm program1/prog01.asm
+  834  ls
+  835  rm -r exe.x
+  836  ls
+  837  cd program1
+  838  make
+  839  ./exe.x
+  840  echo $?
+  841  cd ..
+  842  cd program2
+  843  echo $?
+  844  make
+  845  ./exe.x
+  846  echo $?
+  847  ls
+  848  lst.l
+  849  nano lst.l
+  850  history
+
