@@ -1,0 +1,7 @@
+(gdb) layout asm
+(gdb) break _start
+(gdb) run
+(gdb) stepi
+(gdb) info registers eax ebx
+(gdb) info registers eflags
+(gdb) quit
