@@ -8,6 +8,14 @@ global _start
 _start:
 
 ;Input
+;display msg1
+mov edx,23	;msg length
+mov ecx, msg1	;pointer to variable
+mov ebx, 1	;stdout
+mov eax, 4	;syscall numeber sys_write
+int 0x80
+
+
 mov ebx,0 	;stdin
 mov ecx, inbuf	;pointer to variable (storage-location)
 mov edx, 1	;number of bytes to rad
