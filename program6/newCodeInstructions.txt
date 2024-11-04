@@ -1,0 +1,10 @@
+sub al, '0'	;al=al-'0' where '0' is the ASCII value of the character '0', after this is done al will be converted into purely number and it will 
+;no loger contain a character value. And with this number we can do instructions like mul and div
+mul al		;al=al*al this is the multiplication of the register value by itself
+
+mov bl,10	;sets bl=10
+div bl		;although its not obvious this instruction is defined such that executing it will do ah:al=al/bl where ah will recive the value of the
+;quotient and al will recieve the value of the reminder
+
+basically the div bl causes the al to be divided by the bl value and then quotient will be sent to ah and the remainder will be sent to al,its just
+the way that the div instruction has been programmed
