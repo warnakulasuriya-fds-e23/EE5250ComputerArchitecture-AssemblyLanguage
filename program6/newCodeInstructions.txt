@@ -24,3 +24,19 @@ in reference documennts <8bit  register or immediate number> is written as r/m8 
 MUL r/m8	;Unsigned multiply (AX = AL * r/m8).
 MUL r/m16	;Unsigned multiply (DX:AX = AX * r/m16).
 MUL r/m32	;Unsigned multiply (EDX:EAX = EAX * r/m32).
+
+
+jmp instrunction (jump instruction)
+-----------------------------------
+
+jmp label	;make CPU execute the instruction at "label" address as the next instruction
+
+note that the eip register will store the adress of the next instruction to be executed
+ip= instruction pointer
+its very important for the CPU to internally update the ip vlaue so that program can keep on executing. As each instruction is seperate from the
+other, without ip there is no defined way to execute the next instruction
+
+conditional instruction
+------------------------
+
+cmp al,3	; al-3 will be evaluated, value will NOT be stored in al, value could be either +, 0 or -. Evaluated value will be stored in ZF flag
