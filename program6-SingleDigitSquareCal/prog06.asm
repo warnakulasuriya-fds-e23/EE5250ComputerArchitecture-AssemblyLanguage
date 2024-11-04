@@ -74,4 +74,4 @@ mov ecx,errormsg   ;pointer to variable
 mov ebx, 1      ;stdout
 mov eax, 4      ;syscall numeber sys_write
 int 0x80
-jmp ENDPROG
+jmp ENDPROG	;unconditionally jump to ENDPROG

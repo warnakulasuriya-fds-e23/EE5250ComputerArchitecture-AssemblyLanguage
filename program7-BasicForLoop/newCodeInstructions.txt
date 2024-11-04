@@ -1,0 +1,2 @@
+inc ecx		;increments the value of ecx by 1
+
