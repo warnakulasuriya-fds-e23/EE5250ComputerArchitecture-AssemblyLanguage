@@ -1,4 +1,5 @@
 section .data
+	msg1 db 0xa, 0xd, "Enter a Digit (0-9): "
 section .bss
 	inbuf resb 1
 section .text
